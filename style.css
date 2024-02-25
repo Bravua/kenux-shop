@@ -191,6 +191,11 @@
 .card2{
     width: 100%;
     border-radius: 25px;
+    transition: 0.5s;
+}
+.card2:hover{
+    transform: translateY(-15px)
+}
 }
 .head1{
     display: none;
@@ -198,7 +203,7 @@
 .head2{
     display: none;
 }
-}
+
 
 
 @media screen and (min-width:700px){
@@ -262,6 +267,10 @@
     }
     .card2{
         border-radius: 25px;
+        transition: 0.5s;
+    }
+    .card2:hover{
+        transform: translateY(-15px)
     }
     .head1{
         margin-top: -12px;
